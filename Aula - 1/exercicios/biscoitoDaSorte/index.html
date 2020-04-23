@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Biscoito da sorte</title>
+
+    <style>
+        body {
+            background-color: #a04979;
+        }
+
+        img {
+            width: 100%;
+            max-width: 35%;
+            margin: 40px auto 20px auto;
+        }
+
+        .container {
+            margin: 15vh auto 0px auto;
+            max-width: 60%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+    </style>
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>Biscoito da sorte</h1>
         <img onclick=fraseDaSorte() src="img/biscoito-da-sorte.png" alt="Imagem de um biscoito da sorte">
         <p id="message" class="texto">Clique no biscoito da sorte</p>

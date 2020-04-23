@@ -85,12 +85,7 @@ const frases = ["A vida trará coisas boas se tiveres paciência.",
 
 let paragrafo = document.querySelector('#message');
 
-
-function gerarFrase() {
-  let random = Math.floor(Math.random() * frases.length);
-  return frases[random];
-}
-
 function fraseDaSorte() {
-  paragrafo.innerText = gerarFrase();
+  let random = Math.floor(Math.random() * frases.length);
+  paragrafo.innerText = frases[random];
 }
