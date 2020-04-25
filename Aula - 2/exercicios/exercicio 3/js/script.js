@@ -60,38 +60,3 @@ for (i=0; i<booksArray.length; i++) {
  
 }
 
-
-// // percorrendo o array de livros usando o for
-// for (let contador = 0; contador < arrayLivros.length; contador++) {
-//   // console.log no titulo e autor dos livros
-//   //console.log('Titulo', arrayLivros[contador].titulo, "Autora", arrayLivros[contador].autor)
-
-//   // criando a div que vai receber as info do livro
-//   const divLivro = document.createElement('div')
-
-//   // criar um h2 para receber o titulo do livro
-//   const tituloH2 = document.createElement('h2')
-//   tituloH2.innerText = `Título: ${arrayLivros[contador].titulo}`
-
-//   // criar um paragrafo que vai receber a autora do livro
-//   const autoraParagrafo = document.createElement('p')
-//   autoraParagrafo.innerText = `Autora: ${arrayLivros[contador].autor}`
-
-//   // criar img para receber a capa do livro
-//   const capaImg = document.createElement('img')
-//   capaImg.src = arrayLivros[contador].capa
-
-//   //adicionando o tituloH2 e o autoraParágrfo dentro da divLivro
-//   divLivro.appendChild(capaImg)
-//   divLivro.appendChild(tituloH2)
-//   divLivro.appendChild(autoraParagrafo)
-
-//   // adicionando divLivro no body
-//   body.appendChild(divLivro)
-
-//   // outra forma de referenciar o body aqui
-//   //document.body.appendChild(divLivro)
-  
-//   console.log(divLivro)
-
-// }

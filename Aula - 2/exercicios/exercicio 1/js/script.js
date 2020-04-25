@@ -14,6 +14,4 @@ function insereElementoDeTexto(elemento,id,texto){
   elementoExistente.appendChild(elementoNovo);
 } 
 
-
-
 insereElementoDeTexto('p','#container',"Fui criado com Javascript"); 
