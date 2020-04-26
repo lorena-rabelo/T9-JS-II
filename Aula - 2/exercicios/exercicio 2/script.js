@@ -36,4 +36,4 @@ for (i=0; i<lista.length; i++){
 
 const minhaFoto = document.createElement('img');
 minhaFoto.src = "https://scontent.fcgh23-1.fna.fbcdn.net/v/t1.0-9/12642602_1097990556919837_8065009182128806472_n.jpg?_nc_cat=111&_nc_sid=174925&_nc_ohc=V5Gv7lqVfAAAX8Rf_bJ&_nc_ht=scontent.fcgh23-1.fna&oh=87b7748492fd19193f3beab255166540&oe=5EC8D266";
-body.appendChild(minhaFoto)
+body.appendChild(minhaFoto);
